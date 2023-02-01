@@ -1,0 +1,13 @@
+prefix=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library
+exec_prefix=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library
+libdir=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library/lib
+sharedlibdir=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library/lib
+includedir=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.12
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

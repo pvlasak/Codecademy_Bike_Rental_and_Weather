@@ -1,0 +1,12 @@
+prefix=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libtiff
+Description:  Tag Image File Format (TIFF) library.
+Version: 4.5.0
+Libs: -L${libdir} -ltiff
+Libs.private:  -llibdeflate -lLerc
+Cflags: -I${includedir}
+Requires.private:  zlib libjpeg liblzma libzstd

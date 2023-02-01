@@ -1,0 +1,12 @@
+prefix=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library
+exec_prefix=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library
+libdir=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library/lib
+includedir=C:/GitHub/Codecademy_Bike_Rental_and_Weather/my_env/Library/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.37
+Requires: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

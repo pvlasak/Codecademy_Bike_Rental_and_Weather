@@ -1,0 +1,13 @@
+Create virtual environment with given path
+
+		conda create --prefix ./my_env 
+
+Activate environment
+		conda activate ./my_env   
+
+
+Ipykernel install
+		conda install -c anaconda ipykernel
+
+Install python in it:
+		python -m ipykernel install --user --name my_env
